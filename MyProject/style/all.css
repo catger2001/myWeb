@@ -1,0 +1,129 @@
+@charset "utf-8";
+
+.web_bg {
+    background-color: #eee;
+}
+
+.container {
+    max-width: 1000px;
+}
+
+.mx-auto {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+body {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, "微軟正黑體", sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* .color_white {
+    background-color: #fffdf4;
+}
+
+.color_yellow {
+    background-color: #F4EED4;
+}
+
+.color_brown {
+    color: #6a2921;
+}
+
+.color_red {
+    color: #b5212e;
+} */
+
+/* 頁頭 ------------------------------------------------------------ */
+
+
+.header-head {
+    display: flex;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    position: relative;
+    background-color: #fffdf4;
+}
+
+.head-logo {
+    max-width: 300px;
+    display: block;
+}
+
+/* 
+.head_navi {
+    margin-right: 30px;
+    margin-top: auto;
+    margin-bottom: auto;
+    max-width: 50px;
+    display: block;
+} */
+
+.navi ul {
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 8rem;
+    left: 0;
+    background-color: #fffdf4;
+}
+
+.navi-item {
+    text-align: center;
+    list-style-type: none;
+    font-size: 20px;
+    line-height: 50px;
+    padding-left: 63px;
+    padding-right: 65px;
+    transition-duration: .3s;
+}
+
+.navi-ls a {
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+    line-height: 100px;
+    color: #b5212e;
+}
+
+.navi-item:hover {
+    background-color: #F4EED4;
+    color: #6a2921;
+}
+
+.banner-pic {
+    max-width: 100%;
+    height: auto;
+    vertical-align: bottom;
+}
+
+/* 頁尾 ------------------------------------------------------------ */
+
+.footer {
+    padding: 20px;
+    display: flex;
+    background-color: #fffdf4;
+}
+
+.footer_pic {
+    max-width: 150px;
+}
+
+.footer p {
+    font-size: 10px;
+    line-height: 100%;
+    margin-top: 30px;
+    margin-right: 50px;
+    color: #6a2921;
+}
+
+.top {
+    max-width: 50px;
+    position: fixed;
+    bottom: 30%;
+    right: 5%;
+}
