@@ -1,0 +1,53 @@
+@charset "uft-8";
+
+.menu {
+    color: #6a2921;
+}
+
+.menu-item {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;    
+}
+
+.menu-item-comn{
+    padding: 2rem 150px;
+    background-color: #fffdf4;
+}
+
+/* 新品上市--------------------------------------------- */
+
+.menu-item-new {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #F4EED4;
+}
+
+.menu-item-new-title {
+    width: 100%;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.menu-item-new div {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    box-sizing: border-box;
+    width: 33.33%;
+}
+
+.menu-item-new-pic {
+    max-width: 80%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.menu-item-new-txt {
+    line-height: 3rem;
+    font-size: 1.2rem;
+    text-align: center;
+}

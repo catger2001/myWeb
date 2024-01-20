@@ -8,7 +8,7 @@
 }
 
 .ideal-title, .consist-title {
-    font-size: 2.5rem;
+    font-size: 1.8rem;
     font-weight: 600;
     text-align: center;
     padding-top: 3rem;
@@ -16,7 +16,7 @@
 }
 
 .ideal-desc, .consist-desc {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     line-height: 2.5rem;
     text-align: center;
     padding: 3rem 5rem;
@@ -110,7 +110,7 @@
     line-height: 50px;
     border: #6a2921 solid 3px;
     border-radius: 5px;
-    font-size: 16px;
+    font-size: 1rem;
     display: none;
     padding: 0 5px;
 }

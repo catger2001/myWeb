@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 .web_bg {
-    background-color: #eee;
+    background-color: #fffdf4;
 }
 
 .container {
@@ -22,6 +22,10 @@ html {
     scroll-behavior: smooth;
 }
 
+img {
+    vertical-align: bottom;
+}
+
 /* .color_white {
     background-color: #fffdf4;
 }
@@ -39,7 +43,6 @@ html {
 } */
 
 /* 頁頭 ------------------------------------------------------------ */
-
 
 .header-head {
     display: flex;
@@ -63,48 +66,50 @@ html {
     display: block;
 } */
 
-.navi ul {
+.navi-ls {
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     position: absolute;
     top: 8rem;
     left: 0;
-    background-color: #fffdf4;
+    background-color: rgba(255, 253, 244, .5);
+    width: 100%;
 }
 
 .navi-item {
     text-align: center;
     list-style-type: none;
-    font-size: 20px;
-    line-height: 50px;
-    padding-left: 63px;
-    padding-right: 65px;
-    transition-duration: .3s;
+    font-size: 1.2rem;
+    line-height: 3rem;
+    /* padding-left: 63px;
+    padding-right: 65px; */
 }
 
 .navi-ls a {
     text-decoration: none;
     font-weight: bold;
     display: block;
-    line-height: 100px;
+    line-height: 6rem;
     color: #b5212e;
+    width: 20%;
+    box-sizing: border-box;
+    transition-duration: .3s;
 }
 
-.navi-item:hover {
-    background-color: #F4EED4;
+.navi-ls a:hover {
+    background-color: rgba(255, 253, 244, .9);
     color: #6a2921;
 }
 
 .banner-pic {
     max-width: 100%;
     height: auto;
-    vertical-align: bottom;
 }
 
 /* 頁尾 ------------------------------------------------------------ */
 
 .footer {
-    padding: 20px;
+    padding: 1.25rem;
     display: flex;
     background-color: #fffdf4;
 }
@@ -114,16 +119,17 @@ html {
 }
 
 .footer p {
-    font-size: 10px;
+    font-size: .6rem;
     line-height: 100%;
-    margin-top: 30px;
-    margin-right: 50px;
+    margin-top: 2rem;
+    margin-right: 3rem;
     color: #6a2921;
 }
 
 .top {
-    max-width: 50px;
+    max-width: 3%;
+    height: auto;
     position: fixed;
     bottom: 30%;
-    right: 5%;
+    right: 3%;
 }
