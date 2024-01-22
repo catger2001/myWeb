@@ -14,6 +14,9 @@
 .menu-item-comn{
     padding: 2rem 150px;
     background-color: #fffdf4;
+    max-width: 100%;
+    height: auto;
+    box-sizing: border-box;
 }
 
 /* 新品上市--------------------------------------------- */
@@ -22,11 +25,13 @@
     display: flex;
     flex-wrap: wrap;
     background-color: #F4EED4;
+    padding-left: 5rem;
+    padding-right: 5rem;
 }
 
 .menu-item-new-title {
     width: 100%;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: 600;
     text-align: center;
     padding-top: 3rem;
@@ -34,20 +39,18 @@
 }
 
 .menu-item-new div {
-    padding-left: 1rem;
-    padding-right: 1rem;
     box-sizing: border-box;
-    width: 33.33%;
+    width: 33.333%;
 }
 
 .menu-item-new-pic {
-    max-width: 80%;
+    max-width: 50%;
     height: auto;
     border-radius: 5px;
 }
 
 .menu-item-new-txt {
     line-height: 3rem;
-    font-size: 1.2rem;
     text-align: center;
+    width: 100%;
 }

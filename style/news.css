@@ -6,20 +6,19 @@ body {
 }
 
 .new-prod-title, .holiday-title {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     font-weight: 600;
     padding-top: 3rem;
     padding-bottom: 1rem;
 }
 
 .new-prod-name {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: 600;
     padding-top: 2.5rem 0;
 }
 
 .new-prod-desc, .holiday-desc {
-    font-size: 1.2rem;
     line-height: 2.5rem;
     padding-top: 2rem;
     padding-bottom: 2rem;
@@ -28,6 +27,8 @@ body {
 .new-prod-item {
     width: 100%;
     display: flex;
+    padding: 3rem;
+    box-sizing: border-box;
 }
 
 .new-prod-title, .new-prod-item-1, .new-prod-item-3 {
@@ -39,28 +40,28 @@ body {
 }
 
 .new-prod-pic {
-    max-width: 297px;
-    max-height: 225px;
-    margin: 3rem 5rem;
+    margin: 3rem;
     border-radius: 5px;
 }
 
 .new-prod-txt {
-    margin: 1.8rem 6rem;
+    margin: 3rem;
     padding: 2.5rem 0;
 }
 
 .new-prod-name {
-    font-size: 30px;
+    font-size: 1.2rem;
 }
 
-.new-prod-desc {
+/* .new-prod-desc {
     margin: 0 24px;
-}
+} */
 
 .x-reverse {
     direction: rtl;
 }
+
+/* holiday --------------------------------------------------------------- */
 
 .holiday {
     background-color: #F4EED4;
@@ -72,11 +73,11 @@ body {
 
 .holiday-pic {
     margin: 2.5rem 1rem 2.5rem 4rem;
-    max-width: 40%;
+    max-width: 30%;
+    height: 30%;
 }
 
 .holiday-desc {
-    font-size: 1.2rem;
-    padding: 10rem 5rem 10rem 3rem;
+    padding: 5rem 5rem 10rem 3rem;
     line-height: 3.5rem;
 }

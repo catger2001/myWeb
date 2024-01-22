@@ -39,13 +39,12 @@
 }
 
 .story-title {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     font-weight: 600;
     margin-bottom: 2rem;
 }
 
 .story-desc {
-    font-size: 1.2rem;
     line-height: 2.5rem;
 }
 

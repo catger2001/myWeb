@@ -8,7 +8,7 @@
 }
 
 .ideal-title, .consist-title {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     font-weight: 600;
     text-align: center;
     padding-top: 3rem;
@@ -16,7 +16,6 @@
 }
 
 .ideal-desc, .consist-desc {
-    font-size: 1.2rem;
     line-height: 2.5rem;
     text-align: center;
     padding: 3rem 5rem;
@@ -40,10 +39,10 @@
     position: absolute;
 }
 
-.consist-pic {
+/* .consist-pic {
     max-height: 100%;
     width: auto;
-}
+} */
 
 .consist-pic-kitchen {
     min-height: max-content;
@@ -51,68 +50,71 @@
 }
 
 .consist-item1 {
-    top: 20rem;
+    top: 14rem;
     left: 6rem;    
 }
 
 .consist-pic-chef {
-    max-height: 500px;
+    max-width: 211.5px;
+    height: auto;
 }
 
 .consist-txt-chef {
-    left: 7.5rem;
-    top: 12.5rem;
+    left: 4.5rem;
+    top: 10.5rem;
 }
 
 .consist-item2 {
-    top: 21.5rem;
+    top: 15.5rem;
     left: 2.5rem;
 }
 
 .consist-pic-egg {
-    max-height: 180px;
+    max-width: 108px;
+    height: auto;
 }
 
 .consist-txt-egg {
-    left: 1.5rem;
+    left: -.5rem;
 }
 
 .consist-item3 {
-    top: 35rem;
+    top: 24rem;
     right: 9.5rem;
 }
 
 .consist-pic-flour {
-    max-height: 250px;
+    max-width: 207px;
+    height: auto;
 }
 
 .consist-txt-flour {
-    right: 3.5rem;
-    top: 9rem;
+    right: 1rem;
+    top: 7rem;
 }
 
 .consist-item4 {
-    top: 20.5rem;
-    right: 18rem;    
+    top: 14rem;
+    right: 12rem;    
 }
 
 .consist-pic-sauce {
-    max-height: 165px;
+    max-width: 90.5px;
+    height: auto;
 }
 
 .consist-txt-sauce {
-    top: 10rem;
-    left: 1rem;
+    top: 7rem;
+    left: -.4rem;
 }
 
 .consist-txt {
     background-color: #F4EED4;
-    line-height: 50px;
+    /* line-height: 50px; */
     border: #6a2921 solid 3px;
     border-radius: 5px;
-    font-size: 1rem;
     display: none;
-    padding: 0 5px;
+    padding: 5px;
 }
 
 .consist-pic:hover {
