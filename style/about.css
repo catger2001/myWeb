@@ -18,7 +18,8 @@
 .ideal-desc, .consist-desc {
     line-height: 2.5rem;
     text-align: center;
-    padding: 3rem 5rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
     border-top: double 3px #0c5d41;
     margin: 0 5em;
 }
@@ -39,13 +40,11 @@
     position: absolute;
 }
 
-/* .consist-pic {
-    max-height: 100%;
-    width: auto;
-} */
+.consist-pic {
+    height: auto;
+}
 
 .consist-pic-kitchen {
-    min-height: max-content;
     max-width: 100%;
 }
 
@@ -56,7 +55,6 @@
 
 .consist-pic-chef {
     max-width: 211.5px;
-    height: auto;
 }
 
 .consist-txt-chef {
@@ -71,7 +69,6 @@
 
 .consist-pic-egg {
     max-width: 108px;
-    height: auto;
 }
 
 .consist-txt-egg {
@@ -85,7 +82,6 @@
 
 .consist-pic-flour {
     max-width: 207px;
-    height: auto;
 }
 
 .consist-txt-flour {
@@ -100,7 +96,6 @@
 
 .consist-pic-sauce {
     max-width: 90.5px;
-    height: auto;
 }
 
 .consist-txt-sauce {

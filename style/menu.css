@@ -12,11 +12,14 @@
 }
 
 .menu-item-comn{
-    padding: 2rem 150px;
     background-color: #fffdf4;
+}
+
+.menu-item-comn-pic {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
     max-width: 100%;
     height: auto;
-    box-sizing: border-box;
 }
 
 /* 新品上市--------------------------------------------- */
@@ -25,8 +28,7 @@
     display: flex;
     flex-wrap: wrap;
     background-color: #F4EED4;
-    padding-left: 5rem;
-    padding-right: 5rem;
+    padding: 3rem 5rem;
 }
 
 .menu-item-new-title {
@@ -34,7 +36,6 @@
     font-size: 1.2rem;
     font-weight: 600;
     text-align: center;
-    padding-top: 3rem;
     padding-bottom: 3rem;
 }
 
