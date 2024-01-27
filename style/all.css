@@ -97,6 +97,7 @@ img {
     width: 20%;
     box-sizing: border-box;
     transition-duration: .3s;
+    font-size: .9rem;
 }
 
 .navi-ls a:hover {
@@ -132,7 +133,7 @@ img {
 /* 側邊欄 -------------------------------------------- */
 
 .top {
-    max-width: 3%;
+    max-width: 7%;
     height: auto;
     position: fixed;
     bottom: 30%;

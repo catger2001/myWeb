@@ -28,7 +28,7 @@
     display: flex;
     flex-wrap: wrap;
     background-color: #F4EED4;
-    padding: 3rem 5rem;
+    padding: 3rem 1rem;
 }
 
 .menu-item-new-title {
@@ -44,14 +44,20 @@
     width: 33.333%;
 }
 
+/* .menu-item-new-pic, .menu-item-new-txt {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+} */
+
 .menu-item-new-pic {
-    max-width: 50%;
+    max-width: 80%;
     height: auto;
     border-radius: 5px;
+    padding-bottom: 1rem;
 }
 
 .menu-item-new-txt {
-    line-height: 3rem;
+    line-height: 1.5rem;
     text-align: center;
     width: 100%;
 }

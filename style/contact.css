@@ -1,9 +1,18 @@
 @charset "utf-8";
 
 .contact {
+    background-color: #F4EED4;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.contact-head-body {
     display: flex;
     flex-wrap: wrap;
-    background-color: #F4EED4;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    padding-bottom: 2.5rem;
 }
 
 .contact-item {
@@ -12,72 +21,56 @@
 }
 
 .contact-head {
-    max-width: 40%;
-    height: auto;
-    box-sizing: border-box;
-    padding: 5rem 3rem 2rem 10rem;
+    width: 40%;
     justify-content: center;
+    align-items: center;
     display: flex;
     position: relative;
 }
 
-/* .contact-head::after {
-    content: "";
-    position: absolute;
-    width: 95%;
-    height: 81.5%;
-    border: #0c5d41 solid 1px;
-    top: 4rem;
+.contact-map {
+    max-width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    padding: 1rem;
 }
-
-.contact-head::before {
-    content: "";
-    position: absolute;
-    width: 92%;
-    height: 79%;
-    border: #0c5d41 solid 1px;
-    top: 4.35rem;
-} */
 
 .contact-body {
-    max-width: 60%;
-    height: auto;
-    /* height: 90%; */
+    /* width: 60%; */
     color: #6a2921;
-    display: flex;
-    flex-wrap: wrap;
-    padding: 7rem 1rem 2rem 7rem;
+    padding-right: 1.5rem;
     box-sizing: border-box;
-    justify-content: center;
+    font-size: .9rem;
+    box-sizing: border-box;
+    padding-bottom: 2rem;
 }
 
-.contact-item {
-    width: 100%;
+.contact-item:nth-child(n+1) {
     position: relative;
-    font-size: 1.2rem;
-    line-height: 6rem;
+    font-size: .9rem;
     display: flex;
     flex-wrap: nowrap;
+    padding-top: 1.5rem;
 }
 
 .contact-item::after {
     content: "";
     position: absolute;
-    bottom: -1rem;
+    bottom: -.5rem;
     left: 0;
-    width: 21rem;
+    width: 13.5rem;
     height: 2rem;
-    border-top: double 3px #0c5d41;
+    border-bottom: double 3px #0c5d41;
 }
 
 .contact-icon {
-    margin-right: 2rem;
+    margin-right: 1.5rem;
 }
 
 .contact-foot {
-    width: 80%;
+    width: 100%;
     display: flex;
     justify-content: space-evenly;
-    padding: 2.5rem 0;
+    padding-bottom: 2.5rem;
     position: relative;
 }
