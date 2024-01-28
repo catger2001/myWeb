@@ -4,13 +4,16 @@
     max-height: 424px;
     width: auto;
     overflow: hidden;
+    display: flex;
 }
 
 .index-banner-pic {
-    display: flex;
     max-width: 100%;
     height: auto;
 }
+/* 加動畫往左跑 */
+
+/* story ----------------------------------------- */
 
 .story {
     color: #6a2921;
@@ -23,7 +26,11 @@
 .story-item {
     width: 100%;
     display: flex;
-    padding: 3rem 1rem;
+    padding: 1rem;
+    box-sizing: border-box;
+    justify-content: center;
+    padding: 3rem 5rem;
+
 }
 
 .story-item-1 {
@@ -34,9 +41,22 @@
     background-color: #F4EED4;
 }
 
-.story-txt {
-    max-width: 60%;
+.story-pic-div {
+    width:30%;
+    border-radius: 5px;
+    /* padding: 2rem; */
+    align-items: center;
+}
+
+.story-pic {
+    max-width: 100%;
     height: auto;
+}
+
+.story-txt {
+    width: 70%;
+    box-sizing: border-box;
+    padding: 0 2rem;
 }
 
 .story-title {
@@ -47,13 +67,6 @@
 
 .story-desc {
     line-height: 2rem;
-}
-
-.story-pic-div {
-    max-width: 40%;
-    height: auto;
-    border-radius: 5px;
-    padding: 1rem;
 }
 
 .x-reverse {
