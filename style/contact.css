@@ -33,6 +33,7 @@
     height: auto;
     box-sizing: border-box;
     padding: 1rem;
+    border-radius: 15%;
 }
 
 .contact-body {

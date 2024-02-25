@@ -15,7 +15,7 @@ body {
 .new-prod-name {
     font-size: 1.2rem;
     font-weight: 600;
-    padding-top: 2.5rem 0;
+    padding-top: 2.5rem;
 }
 
 .new-prod-desc, .holiday-desc {
@@ -72,7 +72,7 @@ body {
 }
 
 .holiday-item {
-    display: flex;
+    /* display: flex; */
 }
 
 .holiday-title {
@@ -80,13 +80,72 @@ body {
 }
 
 .holiday-pic {
-    margin-left: 2.5rem;
-    margin-bottom: 2.5rem;
-    /* margin-right: 0; */
-    max-width: 30%;
+    /* margin-left: 2.5rem;
+    margin-bottom: 2.5rem; */
+    max-width: 40%;
     height: 30%;
 }
 
 .holiday-desc {
-    padding: 0 3rem 3rem;
+    padding: 1rem 5rem;
+}
+
+/* RWD ----------------------------------------- */
+
+@media screen and (max-width: 480px) {
+
+    .new-prod-title, .new-prod-item {
+        padding: 1rem 2rem;
+    }
+
+    .new-prod-title {
+        font-size: 4.5vw;
+    }
+
+    .new-prod-name, .holiday-title {
+        font-size: 4vw;
+        padding: 0;
+        padding-bottom: 1rem;
+    }
+
+    .new-prod-desc, .holiday-desc {
+        font-size: 3.5vw;
+        padding: 0;
+        line-height: 1.5rem;
+    }
+
+    .new-prod-txt {
+        width: 60%;
+        padding: 1rem 2rem;
+    }
+
+    .new-prod-pic-div {
+        width: 40%;
+        box-sizing: border-box;
+        padding: .5rem;
+    }
+
+    .holiday-title {
+        padding: 1rem;
+    }
+
+    .holiday-item {
+        padding: 1rem;
+        padding-top: 0;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .holiday-pic {
+        width: 40%;
+        margin: 0;
+        padding-left: 2rem;
+        box-sizing: border-box;
+    }
+
+    .holiday-desc {
+        width: 60%;
+        padding: 1rem;
+        box-sizing: border-box
+    }
 }

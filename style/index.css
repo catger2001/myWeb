@@ -72,3 +72,35 @@
 .x-reverse {
     direction: rtl;
 }
+
+/* RWD ----------------------------------------- */
+
+@media screen and (max-width: 480px) {
+
+    .story-item {
+        padding: 2rem;
+    }
+
+    .story-title {
+        font-size: 4vw;
+        margin-bottom: .7rem;
+    }
+
+    .story-desc {
+        font-size: 3.5vw;
+        padding-top: 0;
+        line-height: 1.5rem;
+    }
+
+    .story-txt {
+        width: 60%;
+        padding: 0 1rem;
+    }
+
+    .story-pic-div {
+        padding: .5rem;
+        padding-top: 0;
+        box-sizing: border-box;
+        width: 40%;
+    }
+}
